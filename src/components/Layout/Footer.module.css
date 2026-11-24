@@ -1,0 +1,22 @@
+.footer {
+  border-top: 1px solid var(--border-subtle);
+  background: rgba(8, 13, 26, 0.7);
+  margin-top: auto;
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.15rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.muted {
+  color: var(--text-muted);
+}

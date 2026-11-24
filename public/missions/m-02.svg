@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10002b"/>
+      <stop offset="100%" stop-color="#240046"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#ff9e00" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff9e00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bg)"/>
+  <rect width="600" height="360" fill="url(#glow)"/>
+  <circle cx="156" cy="92" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="293" cy="181" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="430" cy="270" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="567" cy="19" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="124" cy="108" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="261" cy="197" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="398" cy="286" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="535" cy="35" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="92" cy="124" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="229" cy="213" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="366" cy="302" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="503" cy="51" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="60" cy="140" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="197" cy="229" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="334" cy="318" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="471" cy="67" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="28" cy="156" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="165" cy="245" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="302" cy="334" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="439" cy="83" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="576" cy="172" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="133" cy="261" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="270" cy="10" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="407" cy="99" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="544" cy="188" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="101" cy="277" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="238" cy="26" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="375" cy="115" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="300" cy="170" r="132" fill="none" stroke="#ff9e00" stroke-width="1.2" opacity="0.25"/>
+  
+  <polygon points="300,98 340,121 340,167 300,190 260,167 260,121" fill="none" stroke="#ff9e00" stroke-width="5"/>
+  <polygon points="300,114 326,129 326,159 300,174 274,159 274,129" fill="#ff9e00" opacity="0.28"/>
+  <circle cx="300" cy="144" r="10" fill="#ffffff"/>
+  <path d="M210 215 Q300 170 390 215" fill="none" stroke="#ff9e00" stroke-width="3" stroke-dasharray="6 5" opacity="0.8"/>
+  <rect x="24" y="24" width="116" height="30" rx="15" fill="#000000" opacity="0.45" stroke="#ff9e00" stroke-width="1.2"/>
+  <text x="82" y="44" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="14" font-weight="700" fill="#ff9e00">JWST-21</text>
+  <text x="300" y="318" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#f8fafc" letter-spacing="0.5">James Webb</text>
+</svg>

@@ -1,0 +1,108 @@
+:root {
+  --bg-canvas: #080d1a;
+  --bg-surface: #10172b;
+  --bg-elevated: #16203a;
+  --bg-hover: #1d2a4b;
+  --bg-input: #0b1122;
+
+  --border-subtle: #243256;
+  --border-strong: #374c80;
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  --accent-primary: #38bdf8;
+  --accent-primary-hover: #0ea5e9;
+  --accent-secondary: #818cf8;
+  --accent-glow: rgba(56, 189, 248, 0.16);
+
+  --status-active-bg: rgba(16, 185, 129, 0.15);
+  --status-active-text: #34d399;
+  --status-planned-bg: rgba(56, 189, 248, 0.15);
+  --status-planned-text: #38bdf8;
+  --status-completed-bg: rgba(129, 140, 248, 0.18);
+  --status-completed-text: #a5b4fc;
+  --status-retired-bg: rgba(148, 163, 184, 0.15);
+  --status-retired-text: #cbd5e1;
+
+  --danger: #f87171;
+  --danger-bg: rgba(239, 68, 68, 0.14);
+  --danger-border: rgba(248, 113, 113, 0.45);
+  --warning: #fbbf24;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+
+  --shadow-card: 0 10px 30px -12px rgba(2, 6, 23, 0.75);
+  --shadow-modal: 0 24px 60px -15px rgba(0, 0, 0, 0.85);
+
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: var(--bg-canvas);
+  background-image:
+    radial-gradient(circle at 15% 10%, rgba(56, 189, 248, 0.08), transparent 36%),
+    radial-gradient(circle at 85% 20%, rgba(129, 140, 248, 0.08), transparent 40%);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

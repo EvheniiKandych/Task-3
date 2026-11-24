@@ -1,0 +1,39 @@
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 1.4rem;
+}
+
+.backLink {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.6rem;
+}
+
+.backLink:hover {
+  color: var(--accent-primary);
+}
+
+.title {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.subtitle {
+  margin: 0.25rem 0 0;
+  color: var(--text-secondary);
+  font-size: 0.94rem;
+}
+
+.notFound {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 2.75rem 1.5rem;
+  text-align: center;
+}

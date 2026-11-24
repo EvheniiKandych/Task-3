@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1128"/>
+      <stop offset="100%" stop-color="#001f54"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#72efdd" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#72efdd" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bg)"/>
+  <rect width="600" height="360" fill="url(#glow)"/>
+  <circle cx="168" cy="56" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="305" cy="145" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="442" cy="234" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="579" cy="323" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="136" cy="72" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="273" cy="161" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="410" cy="250" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="547" cy="339" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="104" cy="88" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="241" cy="177" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="378" cy="266" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="515" cy="15" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="72" cy="104" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="209" cy="193" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="346" cy="282" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="483" cy="31" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="40" cy="120" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="177" cy="209" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="314" cy="298" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="451" cy="47" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="588" cy="136" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="145" cy="225" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="282" cy="314" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="419" cy="63" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="556" cy="152" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="113" cy="241" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="250" cy="330" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="387" cy="79" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="300" cy="170" r="132" fill="none" stroke="#72efdd" stroke-width="1.2" opacity="0.25"/>
+  
+  <circle cx="300" cy="170" r="68" fill="#72efdd" opacity="0.9"/>
+  <path d="M236 154 Q300 144 364 154" stroke="#ffffff" stroke-width="5" opacity="0.45" fill="none"/>
+  <path d="M234 176 Q300 186 366 176" stroke="#1f2937" stroke-width="5" opacity="0.3" fill="none"/>
+  <ellipse cx="322" cy="186" rx="14" ry="8" fill="#ef4444" opacity="0.85"/>
+  <rect x="24" y="24" width="116" height="30" rx="15" fill="#000000" opacity="0.45" stroke="#72efdd" stroke-width="1.2"/>
+  <text x="82" y="44" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="14" font-weight="700" fill="#72efdd">ECL-24</text>
+  <text x="300" y="318" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#f8fafc" letter-spacing="0.5">Europa Clipper</text>
+</svg>

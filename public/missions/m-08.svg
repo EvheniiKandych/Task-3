@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="100%" stop-color="#302b63"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#a8dadc" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#a8dadc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bg)"/>
+  <rect width="600" height="360" fill="url(#glow)"/>
+  <circle cx="14" cy="338" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="151" cy="87" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="288" cy="176" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="425" cy="265" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="562" cy="14" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="119" cy="103" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="256" cy="192" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="393" cy="281" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="530" cy="30" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="87" cy="119" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="224" cy="208" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="361" cy="297" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="498" cy="46" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="55" cy="135" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="192" cy="224" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="329" cy="313" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="466" cy="62" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="23" cy="151" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="160" cy="240" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="297" cy="329" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="434" cy="78" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="571" cy="167" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="128" cy="256" r="0.9" fill="#ffffff" opacity="0.75"/>
+  <circle cx="265" cy="345" r="1.6" fill="#ffffff" opacity="0.85"/>
+  <circle cx="402" cy="94" r="2.3" fill="#ffffff" opacity="0.35"/>
+  <circle cx="539" cy="183" r="0.9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="96" cy="272" r="1.6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="233" cy="21" r="2.3" fill="#ffffff" opacity="0.65"/>
+  <circle cx="300" cy="170" r="132" fill="none" stroke="#a8dadc" stroke-width="1.2" opacity="0.25"/>
+  
+  <circle cx="300" cy="170" r="54" fill="#a8dadc" opacity="0.88"/>
+  <ellipse cx="300" cy="170" rx="112" ry="38" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 5" opacity="0.65" transform="rotate(-20 300 170)"/>
+  <circle cx="394" cy="136" r="6" fill="#ffffff"/>
+  <rect x="24" y="24" width="116" height="30" rx="15" fill="#000000" opacity="0.45" stroke="#a8dadc" stroke-width="1.2"/>
+  <text x="82" y="44" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="14" font-weight="700" fill="#a8dadc">NHOR-06</text>
+  <text x="300" y="318" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#f8fafc" letter-spacing="0.5">New Horizons</text>
+</svg>

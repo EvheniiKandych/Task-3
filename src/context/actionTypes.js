@@ -1,0 +1,10 @@
+export const ITEMS_LOADED = 'ITEMS_LOADED';
+export const ITEM_CREATED = 'ITEM_CREATED';
+export const ITEM_UPDATED = 'ITEM_UPDATED';
+export const ITEM_DELETED = 'ITEM_DELETED';
+export const SEARCH_CHANGED = 'SEARCH_CHANGED';
+export const PAGE_CHANGED = 'PAGE_CHANGED';
+export const PAGE_SIZE_CHANGED = 'PAGE_SIZE_CHANGED';
+export const SORT_CHANGED = 'SORT_CHANGED';
+export const FILTER_CHANGED = 'FILTER_CHANGED';
+export const FILTERS_RESET = 'FILTERS_RESET';
